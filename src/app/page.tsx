@@ -10,10 +10,8 @@ export default async function HomePage() {
 
   return (
     <div>
-      <h1>Welcome Home!</h1>
-      <p>hello world</p>
-      <p>반갑습니다, {user?.firstName}</p>
-      <p>등록시간: {user?.createdAt}</p>
+      <h1 className="text-2xl font-bold">Welcome Home!</h1>
+      <p>1. clerk authentication</p>
     </div>
   )
 }
