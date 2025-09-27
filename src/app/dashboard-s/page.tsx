@@ -16,7 +16,7 @@ export default async function DashboardPage() {
   return (
     <div>
       <h1 className="text-2xl font-bold mb-5">Dashboard (Server-side) </h1>
-      <p>Welcome to Dashboard</p>
+      <p>Welcome to Dashboard.</p>
       <p>이 페이지는 로그인된 사용자의 개인정보를 표시합니다. </p>
       <p>
         Welcome, {user?.firstName} {user?.lastName}
