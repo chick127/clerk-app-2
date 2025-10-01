@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import { GitHubContent } from '@/types/github' // Adjust the path as needed
+import { githubuser } from '@/types/content'
 
 interface RepoProps {
   name: string
 }
 
 export default async function RepoDirs({ name }: RepoProps) {
-  const username = 'bradtraversy'
+  const username = githubuser
   await new Promise((resolve) => setTimeout(resolve, 2000))
   const response = await fetch(
     `https://api.github.com/repos/${username}/${name}/contents`,
