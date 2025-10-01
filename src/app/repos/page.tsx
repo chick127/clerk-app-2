@@ -1,9 +1,10 @@
+import { githubuser } from '@/types/content'
 import { Repository } from '@/types/repo'
 import Link from 'next/link'
 import React from 'react'
 import { FaCodeBranch, FaEye, FaStar } from 'react-icons/fa'
 
-const username = 'chick127'
+const username = githubuser
 // const username = 'bradtraversy'
 
 export default async function ReposPage() {
