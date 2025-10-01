@@ -1,3 +1,5 @@
+'use client'
+
 export default function LoadingPage() {
   return (
     <div className="flex min-h-screen justify-center items-center">
